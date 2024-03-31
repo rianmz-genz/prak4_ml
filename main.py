@@ -113,11 +113,10 @@ multiple_lr.fit(X_train, y_train)
 #evaluasi model
 print("Multiple Linear Regression:")
 y_pred = evaluate_model(multiple_lr, X_test, y_test)
-#plot hasil
 
 
 
 latihan = Latihan(correlation, df)
 
 latihan.exercise_two()
-latihan.exercise_three()
+latihan.exercise_four(X_test=X_test, X_train=X_train, y_test=y_test, y_train=y_train)
